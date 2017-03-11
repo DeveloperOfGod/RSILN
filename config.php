@@ -9,10 +9,11 @@
 	date_default_timezone_set('Asia/Novosibirsk');
 	
     $host      = 'localhost';
-    $login     = 'zalex';
-    $pass      = '709489zalex';
-    $dbName    = 'avtoriz';
-    $tableName = 'users_list'; 
+
+    $login     = '';
+    $pass      = '';
+    $dbName    = '';
+    $tableName = ''; 
 
     $startTime = microtime(true);
     $db        = mysql_connect($host, $login, $pass) or die('сервер недоступен');
