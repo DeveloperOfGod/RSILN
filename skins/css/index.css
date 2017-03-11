@@ -1,0 +1,300 @@
+* {
+margin:0;
+padding:0;
+border:0;
+outline:none;
+text-decoration:none;
+}
+
+body{
+
+    position:relative;
+    background-image:url(images/noise.png);
+	background-color:#008ede;
+}
+select{
+
+    position:relative;
+    padding:0px 0px 0px 5px;
+	margin: 20px 0px 0px 0px;
+	width:700px;
+    height:40px;
+	font-size:18px;
+    background-image:url(images/select_back.png);
+	border:1px solid #fbfbfb;
+	outline: 1px solid #d7d7d7;
+    color:#424e5a;
+}
+.input3{
+
+    position:relative;
+    padding:0px 5px 0px 5px;
+	width:468px;
+	height:35px;
+	font-size:18px;
+	background-color:#e9e9e9;
+	border-top:1px solid #c5c5c5;	
+    color:#424e5a;
+}
+.other{
+
+    position:relative;
+	margin: 20px 0px 0px 0px;
+    clear:left;
+}
+.other_text{
+
+    position:relative;
+	padding:5px 0px 0px 0px;
+	margin:0px 20px 0px 0px;
+	height:35px;
+	float:left;
+    clear:left;
+}
+.other_text2{
+
+    position:relative;
+	padding:5px 0px 0px 0px;
+	margin:0px 20px 20px 0px;
+}
+.input{
+
+    position:relative;
+    display:table-cell;
+    outline: 3px solid #fdfdfd;
+}
+.input2{
+
+    position:relative;
+    padding:0px 5px 0px 5px;
+	width:687px;
+	height:35px;
+	font-size:18px;
+	background-color:#e9e9e9;
+	border-top:1px solid #c5c5c5;	
+    color:#424e5a;
+}
+.title_item{
+
+    position:relative;
+    clear:left;
+}
+.block_item{
+
+    position:relative;
+	    clear:left;
+
+	margin: 65px 0px 20px 0px;
+}
+.field_input{
+
+    position:relative;
+    padding:0px 5px 0px 5px;
+	width:468px;
+	height:35px;
+	font-size:18px;
+	background-color:#e9e9e9;
+	border-top:1px solid #c5c5c5;	
+    color:#424e5a;
+    float:left;
+}
+.field_str{
+
+    position:relative;
+	margin: 20px 0px 20px 0px;
+	clear:left;
+}
+#surname{
+
+    position:relative;
+    float:left;
+	padding: 5px 0px 0px 0px;
+	margin: 0px 133px 0px 0px;
+}
+#name{
+
+    position:relative;
+    float:left;
+	padding: 5px 0px 0px 0px;
+	margin: 0px 179px 0px 0px;
+}
+#patronymic{
+
+    position:relative;
+    float:left;
+	padding: 5px 0px 0px 0px;
+	margin: 0px 131px 0px 0px;
+}
+#phone{
+
+    position:relative;
+    float:left;
+	padding: 5px 0px 0px 0px;
+	margin: 0px 138px 0px 0px;
+}
+#email{
+
+    position:relative;
+    float:left;
+	padding: 5px 0px 0px 0px;
+	margin: 0px 170px 0px 0px;
+}
+#body_head{
+
+    position:relative;
+	height:200px;
+	background-color:#bae0f5;
+}
+#wrapper{
+
+    position:relative;
+	margin:0px auto;
+	bottom:200px;
+	width:1100px;
+}
+#head{
+
+    position:relative;
+	margin:0px 0px 0px 0px;
+	height:200px;
+    background-image:url(images/header.png);
+}
+#content{
+
+	padding:30px 25px 5px 25px;
+	background-color:#f1f1f1;
+}
+#footer{
+
+    position:relative;
+	bottom:100px;
+    text-align:center;
+}
+#footer_info{
+
+    position:relative;
+	color:#fff;
+	font-size:26px;
+}
+#info_block_textarea{
+
+    position:relative;
+	margin:0px auto;
+}
+.textarea{
+
+    position:relative;
+	margin:0px auto;
+	padding:10px 10px 10px 10px;
+    color:#424e5a;
+	background-color:#e9e9e9;
+    border-top: 1px solid #c5c5c5;
+	width:970px;
+	height:200px;
+    resize:none;
+	font-size:22px;
+	outline:3px solid #f8f8f8;
+}
+.info_block{
+
+    position:relative;
+	margin:60px auto;
+    margin-bottom:20px;
+	background-color:#e9e9e9;
+    border: 3px solid #f8f8f8;
+}
+.info_title{
+
+    position:relative;
+	margin:0px auto;
+	bottom:40px;
+	width:950px;
+}
+.info_title_left{
+
+    position:relative;
+	float:left;
+	width:10px;
+	height:50px;
+    background-image:url(images/info_title_left.png);
+}
+.info_title_center{
+
+    position:relative;
+	float:left;
+	width:930px;
+	height:50px;
+    background-image:url(images/info_title_center.png);
+}
+.info_title_center_greeting{
+
+    margin:8px 0px 0px 0px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	text-indent:0;
+}
+.info_title_center_text{
+
+    margin:10px 0px 0px 0px;
+	font-size: 22px;
+	font-weight: bold;
+}
+.info_title_right{
+
+    position:relative;
+	float:right;
+	width:10px;
+	height:50px;
+    background-image:url(images/info_title_right.png);
+}
+.info_text_greeting{
+
+    position:relative;
+	padding:10px 25px 25px 25px;
+    color:#424e5a;
+    border-top: 1px solid #c5c5c5;
+	font-size: 22px;
+    text-indent: 1.5em;
+	text-align: justify;
+}
+.info_text{
+
+    position:relative;
+	padding:10px 25px 25px 25px;
+    color:#424e5a;
+    border-top: 1px solid #c5c5c5;
+	font-size: 22px;
+	text-align: justify;
+}
+.button{
+
+    position:relative;
+	float:right;
+	padding:5px 25px 5px 25px;
+    color:#424e5a;
+    background-image:url(images/select_back.png);
+	border:1px solid #fbfbfb;
+	outline: 1px solid #d7d7d7;
+	font-size: 22px;
+}
+.button:hover{
+
+    cursor:pointer;
+}
+#button_wrap{
+
+    position:relative;
+    margin-bottom:16px;
+	height:40px;
+}
+
+.error input, .error select{
+  
+  margin-right: 15px;
+  border: 3px solid red;
+}
+.error {
+  color: red;
+}
+
